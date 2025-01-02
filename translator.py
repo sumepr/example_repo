@@ -26,8 +26,7 @@ def main():
     # Example usage
     while True:
         # Get input from user
-        text = input("\nEnter text to translate (or 'q' to quit): ")
-        
+        text = input("\nEnter text to translate (or 'q' to quit): ")\n        
         # Check if user wants to quit
         if text.lower() == 'q':
             print("Goodbye!")
